@@ -13,7 +13,6 @@ int main() {
 		GPIOF->DATA ^=GREEN;
 		delay(2000000);
 	}
-	
 }
 
 void delay(int time) {

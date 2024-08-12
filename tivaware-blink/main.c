@@ -23,12 +23,12 @@ int main(void)
 
     while(1) {
         GPIOPinWrite(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED, RED_LED);
-        SysCtlDelay(800000);
+        SysCtlDelay(1000000);
 
         GPIOPinWrite(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED, BLUE_LED);
-        SysCtlDelay(800000);
+        SysCtlDelay(1000000);
 
         GPIOPinWrite(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED, GREEN_LED);
-        SysCtlDelay(800000);
+        SysCtlDelay(1000000);
     }
 }
